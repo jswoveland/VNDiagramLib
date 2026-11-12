@@ -1,0 +1,28 @@
+{
+    "name": "vertigis-studio-web-project",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "license": "UNLICENSED",
+    "author": "",
+    "type": "module",
+    "scripts": {
+        "build": "vertigis-web-sdk build",
+        "start": "vertigis-web-sdk start",
+        "lint": "eslint --ext .ts,.tsx",
+        "prettier": "prettier --write \"**/*.json\" \"**/*.js\" \"**/*.ts\" \"**/*.tsx\""
+    },
+    "devDependencies": {
+        "@vertigis/web": "5.44.1",
+        "@vertigis/web-sdk": "3.1.4",
+        "prettier": "~3.5.3",
+        "typescript": "^6.0.3"
+    },
+    "overrides": {
+        "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz"
+    },
+    "allowScripts": {
+        "@mui/x-telemetry": false,
+        "@vaadin/vaadin-usage-statistics": false
+    }
+}

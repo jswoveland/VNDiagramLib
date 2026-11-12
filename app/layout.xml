@@ -1,0 +1,323 @@
+<layout xmlns="https://geocortex.com/layout/v1" id="layout-aaa8f1fb">
+    <split id="split-31bf30f6" config="175116bc-7cf0-4c56-9663-4cec720c891b" halign="start" resizable="true" valign="center">
+        <panel id="panel-48f020ca" config="d5ff4fc9-591c-4524-9a63-b0354bd6a787" margin="0" show-back-button="false" show-close-button="false" show-popout-button="true" width="28.571428571428573" grow="0">
+            <tabs xmlns="https://geocortex.com/layout/web/v1" id="tabs-ad834c57" config="16698e2a-ba8e-4bb1-a60b-613e2972f9ab" halign="start" orientation="horizontal" position="start">
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-30183072" config="76bc1765-44ec-4982-b772-1ee043e51e5b" resizable="false">
+                    <module-info-header xmlns="https://utilities.vertigis.com/layout/v1" id="header-c684ce37" config="module-info-header-model-1" active="true" grow="30"/>
+                    <text id="text-5672bf83" config="7fb1f9a8-6587-499d-ab9e-1df02baa614c" grow="0" height="8"/>
+                    <toolbar id="toolbar-e841bd41" config="e807c216-90bc-41c0-a2e2-2b15dbcab229" grow="70" orientation="vertical"/>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-5904c1f7" config="f885c063-9f21-47c3-b5fc-e9094ff49754" halign="center" margin="0.2857142857142857">
+                    <split id="split-c090f659" config="af3c64f7-0c42-44fe-8a9f-efeb0cec4731" grow="0" height="3.5714285714285716">
+                        <button id="button-3477bb60" config="c8d24ad9-6425-4445-9ea7-a33636cf8f75" margin="0.2857142857142857" show-title="false"/>
+                        <button id="button-add-from-url" config="add-layer-from-url" margin="0.2857142857142857" show-title="false"/>
+                        <button id="button-f3be8fa5" config="ed327390-16bd-477c-81b0-625132cc13b2" margin="0.2857142857142857" show-title="false"/>
+                        <button id="dxf-import-button" config="7f827a15-dd99-42bf-87c1-a2c3e2524be7" margin="0.2857142857142857" show-title="false"/>
+                        <button id="button-80dfcbce" config="b99e74f8-c1b8-455b-bcae-e54cf758043a" margin="0.2857142857142857" show-title="false"/>
+                    </split>
+                    <layer-list id="layer-list-e5e308f0" config="c0d2ce7b-8657-48dc-b550-bd148312623d" grow="100" models="#map-079ed947" show-filter-control="true"/>
+                </stack>
+                <legend xmlns="https://geocortex.com/layout/v1" id="legend-76ca1277" config="b08e2d37-a58e-4c33-b03e-aab4c32e84a8" models="#map-079ed947"/>
+                <stack xmlns="https://geocortex.com/layout/v1" id="organization-management-01" config="organization-stack" active="false">
+                    <panel id="panel-organization-01" config="organization-panel" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <Organization xmlns="https://utilities.vertigis.com/layout/v1" id="organization-01" config="organization-01-page"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="user-list-management-01" config="user-list-stack">
+                    <panel id="panel-user-list-01" config="user-list-panel" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <user-list xmlns="https://utilities.vertigis.com/layout/v1" id="user-list-01" config="user-list-01-page"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-job-management-01" config="job-management-stack">
+                    <panel id="panel-job-management-01" config="job-management-panel" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <job-management-page xmlns="https://utilities.vertigis.com/layout/v1" id="job-management-01" config="job-management-page"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-dxf-export" config="stack-dxf-export-config-1" active="false">
+                    <dxf-export-panel-component xmlns="https://utilities.vertigis.com/layout/v1" id="dxf-export-panel-component-1" config="dxf-export-panel-component-config-1" models="#map-079ed947"/>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-69fc6731" config="intersection-page-stack-config-1">
+                    <panel id="panel-f3917ac5" config="ff93bf90-4dd4-479b-80ff-8eed17c21f6b" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <intersection-page xmlns="https://utilities.vertigis.com/layout/v1" id="intersection-page-c31942c0" config="intersection-page-1" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-69fc6732" config="orthogonal-page-stack-config-1">
+                    <panel id="panel-f3917ac1" config="ff93bf90-4dd4-479b-80ff-8eed17c21f61" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <orthogonal-page xmlns="https://utilities.vertigis.com/layout/v1" id="orthogonal-page-c31942c0" config="orthogonal-page-1" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="view-associations-stack-1" config="stack-config-3">
+                    <panel id="view-associations-panel-1" config="view-associations-panel-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="view-associations-stack-2" config="view-associations-stack-2">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="view-associations-feature-picker" config="view-associations-feature-picker-1" active="false" models="#map-079ed947"/>
+                            <view-associations-alphanumerical xmlns="https://utilities.vertigis.com/layout/v1" id="view-associations-1" config="view-associations-alphanumerical-model-1" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="cross-sections-stack-1" config="cross-sections-stack-1">
+                    <panel id="cross-sections-panel-1" config="cross-sections-panel-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="cross-sections-stack-2" config="cross-sections-stack-2">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="cross-sections-feature-picker" config="cross-sections-feature-picker-1" active="false" models="#map-079ed947"/>
+                            <cross-sections xmlns="https://utilities.vertigis.com/layout/v1" id="cross-sections-1" config="cross-sections-1" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-7a05b0ed" config="stack-config-2">
+                    <network-debug xmlns="https://utilities.vertigis.com/layout/v1" id="debug-367ca08e" config="debug-1" models="#map-079ed947"/>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-anno-debug" config="anno-debug-stack-config">
+                    <anno-debug xmlns="https://utilities.vertigis.com/layout/v1" id="anno-debug" config="anno-debug-1" models="#map-079ed947"/>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-validate" config="network-validate-stack-config">
+                    <panel id="panel-b74b4a68" config="network-validate-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <network-validation-page xmlns="https://utilities.vertigis.com/layout/v1" id="validate-page-fe09d861" config="network-validate-config" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="split-stack" config="split-stack-config">
+                    <panel id="panel-c29ea76e56d2" config="split-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <split-panel xmlns="https://utilities.vertigis.com/layout/v1" id="split-3de4720e6bc1" config="split-config" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="merge-stack" config="merge-stack-config">
+                    <panel id="panel-237ea3fd2066" config="merge-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <merge-component xmlns="https://utilities.vertigis.com/layout/v1" id="merge-f1550cc8d26b" config="merge-config" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="copy-stack-1" config="copy-stack-1">
+                    <panel id="copy-panel-1" config="copy-panel-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <copy xmlns="https://utilities.vertigis.com/layout/v1" id="copy-component-1" config="copy-component-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="rotate-stack-1" config="rotate-stack-1">
+                    <panel id="rotate-panel-1" config="rotate-panel-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="rotate-stack-2" config="rotate-stack-2">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="rotate-feature-picker" config="rotate-feature-picker-1" active="false" models="#map-079ed947"/>
+                            <rotate-point-feature xmlns="https://utilities.vertigis.com/layout/v1" id="rotate-component" config="rotate-component-1" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="subnetwork-stack" config="subnetwork-stack-config">
+                    <panel id="panel-b7676e3fd8ec" config="subnetwork-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <subnetwork-component xmlns="https://utilities.vertigis.com/layout/v1" id="subnetwork-6b5a8450838e" config="subnetwork-config" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-7823fa6a" config="eda34d1d-32d4-4159-bc70-694ca4895a6f">
+                    <network-trace xmlns="https://utilities.vertigis.com/layout/v1" id="network-trace-2" config="network-trace-2" active="false" models="#map-079ed947" height="48.214285714285715" grow="0"/>
+                    <workflow id="workflow-9e460381" config="3618f8e8-bd47-4455-8618-3d9bd5a371e0" grow="0" height="7.142857142857143"/>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-69fc6730" config="network-template-picker-stack-config-1">
+                    <panel id="panel-f3917ac4" config="network-template-picker-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <network-template-picker xmlns="https://utilities.vertigis.com/layout/v1" id="network-template-picker-c31942c0" config="network-template-picker-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="relations-view-stack-1" config="relations-view-stack-config-1">
+                    <panel id="relations-view-panel-1" config="relations-view-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="relations-view-stack-2" config="relations-view-stack-config-2">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="relations-view-feature-picker-1" config="relations-view-feature-picker" active="false" models="#map-079ed947"/>
+                            <relations-view xmlns="https://utilities.vertigis.com/layout/v1" id="relations-view-comp-1" config="relations-view-comp-1" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="update-geometry-stack-1" config="update-geometry-stack">
+                    <panel id="update-geometry-panel-1" config="update-geometry-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="update-geometry-stack-2" config="update-geometry-stack-config">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="update-geometry-feature-picker-1" config="update-geometry-feature-picker" active="false" models="#map-079ed947"/>
+                            <update-geometry xmlns="https://utilities.vertigis.com/layout/v1" id="update-geometry" config="update-geometry-config" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="cable-loop-stack-1" config="cable-loop-stack">
+                    <panel id="cable-loop-panel-1" config="cable-loop-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="cable-loop-stack-2" config="cable-loop-stack-config">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="cable-loop-feature-picker-1" config="cable-loop-feature-picker" active="false" models="#map-079ed947"/>
+                            <cable-loop xmlns="https://utilities.vertigis.com/layout/v1" id="cable-loop" config="cable-loop" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="station-entry-stack-1" config="station-entry-stack">
+                    <panel id="station-entry-panel-1" config="station-entry-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="station-entry-stack-2" config="station-entry-stack-config">
+                            <station-entry xmlns="https://utilities.vertigis.com/layout/v1" id="station-entry" config="station-entry-config" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="attachments-stack-1" config="attachments-stack-config-1">
+                    <panel id="attachments-panel-1" config="attachments-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="attachments-stack-2" config="attachments-stack-config-2">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="attachments-feature-picker-1" config="attachments-feature-picker" active="false" models="#map-079ed947"/>
+                            <attachments-list xmlns="https://utilities.vertigis.com/layout/v1" id="attachments-list-1" config="attachments-list-config" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="georeference-stack-1" config="georeference-stack-config-1">
+                    <panel id="georeference-panel-1" config="georeference-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <georeference xmlns="https://utilities.vertigis.com/layout/v1" id="georeference-comp-1" config="georeference-comp-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="document-management-stack-1" config="document-management-stack-1">
+                    <panel id="document-management-panel-1" config="document-management-panel-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <document-management xmlns="https://utilities.vertigis.com/layout/v1" id="document-management-1" config="document-management-1" active="false"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="annotations-stack" config="anno-stack-config">
+                    <panel id="annotations-panel" config="anno-panel-config" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <annotations xmlns="https://utilities.vertigis.com/layout/v1" id="annotations-a990d4de" config="annotations-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="dimensions-stack-1" config="dimensions-stack-config-1">
+                    <panel id="dimension-panel-1" config="dimensions-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <dimensions xmlns="https://utilities.vertigis.com/layout/v1" id="dimensions-4gh67si7" config="dimensions-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="network-multiline-stack-1" config="network-multiline-stack-config-1">
+                    <panel id="panel-f3917ac6" config="network-multiline-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <network-multiline xmlns="https://utilities.vertigis.com/layout/v1" id="network-multiline-c31942d0" config="network-multiline-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="terminal-connections-stack-1" config="terminal-connections-stack-1">
+                    <panel id="terminal-connections-panel-1" config="terminal-connections-panel-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <stack id="terminal-stack-1" config="terminal-stack-1">
+                            <feature-picker xmlns="https://utilities.vertigis.com/layout/v1" id="terminal-connections-feature-picker" config="terminal-connections-feature-picker-1" active="false" models="#map-079ed947"/>
+                            <terminal-connections xmlns="https://utilities.vertigis.com/layout/v1" id="terminal-connections-model-1" config="terminal-connections-model-1" active="false"/>
+                        </stack>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-e8fde792" config="version-management-stack-1">
+                    <panel id="panel-86f8106d" config="51c75eec-b2ef-41f9-8bd7-0b9450ad6640" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <version-management-page xmlns="https://utilities.vertigis.com/layout/v1" id="version-management-e8fde792" config="version-management-page-1" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-bulk-update" config="stack-config-bulk-update">
+                    <panel id="panel-bulk-update" config="panel-config-bulk-update" active="false" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <bulk-attribute-update xmlns="https://geocortex.com/layout/web/v1" id="bulk-attribute-update-b1cd450d" config="b1915b2c-ff4c-4eb1-8a66-ee1f2923b892"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-b39ee579" config="a8c17402-b23b-4ff6-b3d9-7f98f2b41ccb" active="false">
+                    <panel id="panel-d997841d" config="80cccad4-fdd3-490e-9bc7-76784ab839c4" show-back-button="false" show-maximize-button="false" show-minimize-button="false">
+                        <query-builder xmlns="https://geocortex.com/layout/web/v1" id="query-builder-f07182be" config="12b1aa10-a204-47c9-ba6a-fe5c4ac3c635" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-results" config="stack-results-config" active="false">
+                    <panel id="panel-results" config="panel-results-config" show-back-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <results-list id="results-list-106df626" config="9f268caf-3b2d-4747-afa5-b979be82f7e3" active="true"/>
+                        <feature-details id="feature-details-8c89d630" config="487c38d7-2234-4ffa-b40e-91e97003cf24" button-size="small" button-style="square" show-action-titles="true"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="network-diagram-search-stack-1" config="network-diagram-search-stack-config-1">
+                    <panel id="network-diagram-search-panel-1" config="network-diagram-search-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <network-diagram-search xmlns="https://utilities.vertigis.com/layout/v1" id="network-diagram-search" config="network-diagram-search-config-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="network-diagram-layout-stack-1" config="network-diagram-layout-stack-config-1">
+                    <panel id="network-diagram-layout-panel-1" config="network-diagram-layout-panel-config-1" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                        <network-diagram-layout xmlns="https://utilities.vertigis.com/layout/v1" id="network-diagram-layout" config="network-diagram-layout-config-1" active="false" models="#map-079ed947"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-0bb69df9" config="30bb7ead-7f03-4295-9dc2-50de286c2095">
+                    <panel id="panel-b23d2e24" config="d57224bd-4b4f-45c9-a66e-c9162cb0fb47" show-back-button="false" show-maximize-button="false" show-minimize-button="true">
+                        <workflow id="workflow-141f58ee" config="656c2c87-5d40-46a2-b304-602e05132900"/>
+                    </panel>
+                </stack>
+                <stack xmlns="https://geocortex.com/layout/v1" id="stack-2d4c97b4" config="6ce75907-966f-4260-9672-9c8f4d560bfd">
+                    <panel id="panel-1ca43fb3" config="3b24e379-9ee8-44ad-8610-49c5f5c5f299" show-back-button="false" show-maximize-button="false" show-minimize-button="false" visual-state="minimized"/>
+                </stack>
+            </tabs>
+            <workflow id="workflow-4397adc2" config="edit.display-attribute-editor" active="false"/>
+            <print-form xmlns="https://geocortex.com/layout/web/v1" id="print-form-e567c224" config="5624f8b6-23b9-4e40-8cb0-54f664fcfd99" models="#map-079ed947" active="false"/>
+            <panel id="network-diagram-store-panel-1" config="network-diagram-store-panel-config-1" show-back-button="true" show-close-button="true" show-maximize-button="false" show-minimize-button="false">
+                <network-diagram-store xmlns="https://utilities.vertigis.com/layout/v1" id="network-diagram-store" config="network-diagram-store-config-1" active="false" models="#map-079ed947"/>
+            </panel>
+        </panel>
+        <stack id="stack-da03cb5a" config="fddd4e7a-5487-498c-92ba-bbf8fdf373a3" grow="100" resizable="false">
+            <stack id="stack-f4a5a77b" config="077d1f5f-9daf-4a37-a609-af290a0e8a91" grow="100" resizable="false">
+                <split id="split-a94fb322" config="342e548c-cdc3-4e55-97ad-64cce3c6057d" grow="0" halign="end" height="8.571428571428571" resizable="true">
+                    <tabs xmlns="https://geocortex.com/layout/web/v1" id="tabs-2debb8ac" config="f2ef983a-daf1-48c6-a02e-6d1eeac81a65" grow="80">
+                        <toolbar xmlns="https://geocortex.com/layout/v1" id="toolbar-map-ribbon" config="map-ribbon"/>
+                        <toolbar xmlns="https://geocortex.com/layout/v1" id="toolbar-query-ribbon" config="query-ribbon"/>
+                        <toolbar xmlns="https://geocortex.com/layout/v1" id="toolbar-construct-ribbon" config="construct-ribbon"/>
+                        <toolbar xmlns="https://geocortex.com/layout/v1" id="toolbar-edit-ribbon" config="edit-ribbon"/>
+                        <toolbar xmlns="https://geocortex.com/layout/v1" id="toolbar-network-ribbon" config="network-ribbon"/>
+                        <toolbar xmlns="https://geocortex.com/layout/v1" id="toolbar-notes-ribbon" config="notes-ribbon"/>
+                        <split xmlns="https://geocortex.com/layout/v1" id="split-44d99317" config="cbe964f1-3ae1-4730-8227-9f76d0eecf50" resizable="false">
+                            <toolbar id="toolbar-51ae6f19" config="df99d639-a7b7-4ec3-9afd-cc911629692c" grow="0" width="21.428571428571427"/>
+                            <kpi-card xmlns="https://geocortex.com/layout/web/v1" id="kpi-card-64db07a0" config="2f0c785c-a809-47be-bd29-264ff1d8dc40" grow="0" width="10.714285714285714" margin="0" padding="0.35714285714285715"/>
+                            <kpi-card xmlns="https://geocortex.com/layout/web/v1" id="kpi-card-2c5af4da" config="a20d50b1-603b-4546-a264-87ea16c0d2b5" grow="0" width="10.714285714285714" padding="0.35714285714285715"/>
+                            <kpi-card xmlns="https://geocortex.com/layout/web/v1" id="kpi-card-ee168e1c" config="69e7ba76-8359-4a4a-9050-0027e2201596" grow="0" width="10.714285714285714" padding="0.35714285714285715"/>
+                        </split>
+                    </tabs>
+                    <stack id="stack-c7211d23" config="1619ff44-683e-495e-b167-2e8b33333c78" grow="20" halign="start" margin="0.2857142857142857" resizable="false" valign="start">
+                        <search id="search-c3b145bd" config="4d6a97f9-b650-4e13-886c-2726ae9494d0" models="#map-079ed947"/>
+                        <toolbar id="toolbar-favorites" config="62bd0f09-d3a3-4345-9a50-f2b432bb79c4" showTitles="false"/>
+                    </stack>
+                </split>
+                <split id="split-55821e84" config="44bab16a-9786-4119-8ff8-9d917b38d567" grow="100">
+                    <map id="map-079ed947" config="6b45a971-339f-4043-81ae-e8cfb6c954f8">
+                        <basemap-picker id="basemap-picker-68cd426c" config="dc899072-145b-4259-8f82-df7d9d716e76" active="false" margin="0" slot="top-end"/>
+                        <scalebar id="scalebar-ba707775" config="5642d3fc-139d-489a-8aee-6a5837b8f880" slot="bottom-start"/>
+                        <map-3d-toggle xmlns="https://geocortex.com/layout/web/v1" id="map-3d-toggle-581f0762" config="605dfd40-ba19-4dd6-b504-4722844dc7d4" slot="top-end" style="square"/>
+                        <geometry-toolbar xmlns="https://geocortex.com/layout/web/v1" id="geometry-toolbar-a7507aaa" config="752f968d-0a4f-4bf4-957e-f81a7d2f0f3b" active="false" size="small" slot="panel"/>
+                        <panel id="bookmarks-panel-80e65a32" config="80e65a32-c7d6-44db-b6d0-af1097852061" active="false" show-maximize-button="false" show-minimize-button="false" slot="top-center">
+                            <bookmarks id="bookmarks-9b5bdb0f" config="a02a4725-ae94-4b32-94aa-081fb8e37edb" active="true" style="square"/>
+                        </panel>
+                        <map-coordinates id="map-coordinates-970dea4d" config="9dd615f5-dff0-4057-8d12-59f8cec3fe25" slot="context-menu"/>
+                        <address xmlns="https://geocortex.com/layout/web/v1" id="address-8abe15c5" config="d051a702-4a5e-4c3c-9247-ddfb0d50046e" slot="context-menu"/>
+                        <panel id="panel-96fa609c" config="cbad23f9-60a1-4471-ae8a-80a456ca66a9" active="false" show-back-button="false" show-close-button="false" show-maximize-button="false" show-minimize-button="false" slot="top-start">
+                            <split id="split-90a1ed09" config="3ffafc61-de31-478a-88dd-997a9915ac38" active="false">
+                                <attribute-form-extension xmlns="https://utilities.vertigis.com/layout/v1" id="attribute-form-extension-1" config="attribute-form-extension-config" active="false"/>
+                                <feature-summary xmlns="https://geocortex.com/layout/web/v1" id="feature-summary-c36e7624" config="9d0dcf4e-a08b-484c-af2c-daa8d35e6390" active="false"/>
+                            </split>
+                        </panel>
+                        <stack id="stack-35975131" config="54c26e7e-4b76-4b3f-8af6-ee306c11777f" halign="center" margin="0.07142857142857142" slot="bottom-end" valign="start">
+                            <networks-snapping-toolbar xmlns="https://utilities.vertigis.com/layout/v1" id="networks-snapping-toolbar-abf12cd" config="networks-snapping-config-1" active="true"/>
+                            <button id="button-refresh-map-1" config="refresh-map-1" margin="0.07142857142857142" show-title="false" style="square"/>
+                            <compass id="compass-66d3c558" config="9f7a6d78-af83-4587-82c9-6221c9da8314" active="true" slot="bottom-end"/>
+                            <button id="button-go-to-previous-viewpoint" config="map.go-to-previous-viewpoint" margin="0.07142857142857142" show-title="false" style="square"/>
+                            <button id="button-go-to-next-viewpoint" config="map.go-to-next-viewpoint" margin="0.07142857142857142" show-title="false" style="square"/>
+                            <zoom id="zoom-5f636b61" config="bf3ebf1b-7446-47c2-b32b-a4160b71fba7" style="square"/>
+                        </stack>
+                        <stack id="stack-dimensions-custom-length" config="stack-dimensions-custom-length" halign="start" margin="0" slot="top-start" valign="start">
+                            <dimensions-custom-length xmlns="https://utilities.vertigis.com/layout/v1" id="dimensions-custom-length-1" config="dimensions-custom-length-1" active="false" models="#map-079ed947"/>
+                        </stack>
+                    </map>
+                    <panel id="panel-ff54f063" config="2dd5aa48-7bd5-4a8a-bf10-94daea553b53" margin="1.0714285714285714" active="false">
+                        <map id="network-diagram-map" config="network-diagram-map-config" active="false">
+                            <expand id="expand-2e00c934" config="27e4bacb-4679-4ab9-9d04-f38d779620c2" slot="top-start">
+                                <layer-list id="layer-list-cbf4d4d0" config="d825c52f-773f-4874-b9c0-94dc9f67c091"/>
+                            </expand>
+                            <expand id="expand-710d1c5b" config="8c9f2df9-4b76-4516-9da8-9e444f58bdf3" halign="center" slot="top-start" valign="end">
+                                <legend id="legend-6e7a46c5" config="ce186949-506b-4b31-afe5-fbd646a12095"/>
+                            </expand>
+                            <zoom id="zoom-84e06319" config="a2619fc0-8577-49ba-8741-f46c4a905538" slot="bottom-end"/>
+                        </map>
+                    </panel>
+                </split>
+            </stack>
+            <panel id="panel-0d73aab0" config="d9910d6f-ebfa-448e-8f46-9f5c23bca7d2" active="false" height="25" show-popout-button="true">
+                <results-table xmlns="https://geocortex.com/layout/web/v1" id="results-table-ec389abb" config="9f268caf-3b2d-4747-afa5-b979be82f7e3"/>
+            </panel>
+            <split id="split-3382f582" config="89755e7f-9a1f-414b-94d5-65bb5b901576" grow="0" halign="start" height="3.2142857142857144" margin="0" resizable="false" valign="center">
+                <split id="split-73fda050" config="65ed16fe-84d0-4e9a-84a9-12807edd762b" grow="0" halign="start" valign="start" width="14.285714285714286">
+                    <scale-input xmlns="https://geocortex.com/layout/web/v1" id="scale-input-41367b3e" config="6f94d4a7-df3e-41ac-9c4b-c7722e21064b" grow="1" models="#map-079ed947"/>
+                </split>
+                <split id="split-823baa60" config="054368ba-1a25-4406-8316-a24b2c4bfbb1" grow="75" halign="center" valign="center">
+                    <active-version-button xmlns="https://utilities.vertigis.com/layout/v1" id="active-version-button-e8fde792" config="active-version-button-1" halign="center" models="#map-079ed947" slot="bottom-center" valign="center"/>
+                </split>
+                <split id="split-b5d9e2ca" config="a6e65d72-728b-415d-8ea4-3ca325e67054" grow="25" halign="end" margin="0.14285714285714285" resizable="false" valign="center">
+                    <expand id="expand-ce2a8160" config="9ffcfa8e-9add-4bc1-8539-623ecacc564c" grow="0" halign="center" valign="center" width="2.857142857142857">
+                        <user-preferences xmlns="https://geocortex.com/layout/web/v1" id="user-preferences-76b78838" config="bc19a87f-3678-43e7-b531-520efea6a77a"/>
+                        <locale-switch xmlns="https://utilities.vertigis.com/layout/v1" id="locale-switch-39986657" config="locale-switch-07a66465"/>
+                    </expand>
+                    <user id="user-fbc36676" config="85cc437c-83ba-4017-afd7-317e9f8957f8" grow="0" margin="0.2857142857142857" slot="top-end" width="2.857142857142857"/>
+                    <image id="image-6fe635b1" config="6b56f8fe-3c78-48a7-ab81-1dda46057285" grow="0" width="7.857142857142857"/>
+                </split>
+            </split>
+        </stack>
+    </split>
+    <dialog id="dialog-013744f9" config="f96a2621-59fb-451f-a8ff-4516146aa4fc" active="false">
+        <split id="split-c6f19e58" config="e7dff6b7-231a-46a9-9ce0-2269a2fb8e75" halign="center" valign="center">
+            <toolbar id="toolbar-572e0d99" config="b2cc244d-5c2c-416f-8eca-69a1e74facf8" grow="0" width="23.071428571428573"/>
+        </split>
+        <text id="text-bd784aab" config="f965bc43-6a6b-484c-afb3-63cab7b25b0e" halign="center" valign="center"/>
+    </dialog>
+    <dxf-export-log xmlns="https://utilities.vertigis.com/layout/v1" id="dxf-export-log-1" config="dxf-export-log-config-1"/>
+</layout>

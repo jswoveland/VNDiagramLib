@@ -1,0 +1,9 @@
+{
+    "extends": "@vertigis/web-sdk/config/tsconfig.json",
+    "compilerOptions": {
+        "paths": {
+            "esri/*": ["./node_modules/@arcgis/core/*"]
+        },
+    },
+    "include": ["eslint.config.js", "src"]
+}
